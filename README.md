@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="./assets/logo.jpg" width="120" height="120"/>
+<img src="./src/assets/logo.jpg" width="120" height="120"/>
 <br/>
 Resizimg
 </h1>
@@ -43,6 +43,6 @@ A flag `--sizes` permitirá passar os tamanhos desejados, separados por vírgula
 `--sizes [tamanhos,separados,por,vírgulas]` ou `-s [tamanhos,separados,por,vírgulas]`
 
 ### Nome da pasta
-Poderá passar a flag `--folderName` para modificar a pasta que será criada com as imagens redimensionadas, por padrão é a `redimensionado`:
+Poderá passar a flag `--folderName` para modificar a pasta que será criada com as imagens redimensionadas, o nome por padrão é `redimensionado`: \n
 `--folderName [nome da pasta]` ou `-fn [nome da pasta]`
 
