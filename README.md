@@ -19,6 +19,7 @@ Resizimg
 -   🛠 **Inquirer** - Uma coleção de interfaces de usuário de linha de comando interativas comuns.
 -   💅 **Chalk** - Colore a saída do console do shell com JavaScript..
 -  🖌 **Figlet** - Criar Arte ASCII a partir de texto.
+-  🖼 **Sharp** - Processamento de imagem Node.js de alto desempenho, o módulo mais rápido para redimensionar imagens.
 
 ## Começando
 
