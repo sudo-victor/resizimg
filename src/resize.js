@@ -6,12 +6,12 @@ const figlet= require("figlet")
 const chalk = require("chalk")
 const fs = require("fs")
 const path = require("path")
-const package = require("./package.json")
-const { option } = require("commander")
+const package = require("../package.json")
 const sharp = require("sharp")
 
 program.version(package.version)
 
+// Renderiza o titulo no console
 console.log(chalk.green(figlet.textSync("RESIZIMG")))
 
 program  
@@ -24,7 +24,7 @@ program
       let answers;
       let dir;
 
-      // Se não passou o cminho da imagem no console, o sistema fará a pergunta do caminho
+      // Se não passou o caminho da imagem no console, o sistema fará a pergunta do caminho
       if(!options.directory) {
 
          dir = await inquirer.prompt([
@@ -51,6 +51,7 @@ program
       
       const sizes = options.sizes? options.sizes.split(",") : answers.sizes.split(",")
       const directory = options.directory || dir.directory 
+      
       const dirname = path.dirname(directory)
       const [filename, extension] = path.basename(directory).split(".")
       const destination = `${dirname}/${options.folderName}`

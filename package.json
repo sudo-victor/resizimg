@@ -13,6 +13,6 @@
     "shelljs": "^0.8.4"
   },
   "bin": {
-    "resizimg": "resize.js"
+    "resizimg": "src/resize.js"
   }
 }
