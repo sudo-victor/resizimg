@@ -30,7 +30,8 @@ Resizimg
 
 ### Inicialização
 
--   Rode `yarn link` ou `npm link` e a CLI já estará disponível no seu terminal para ser usada.
+- `yarn link` ou `npm link`
+- `resizimg run`
 
 ## Opções
 
