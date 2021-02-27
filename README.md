@@ -34,6 +34,8 @@ Resizimg
 
 ## Opções
 
+⚠Se não passar nenhuma flag a CLI pegará informações através de perguntas⚠
+
 ### Caminho da imagem
 Para passar o caminho da imagem por flag:
 - `--directory [caminho da imagem]` ou `-d [caminho da imagem]`
