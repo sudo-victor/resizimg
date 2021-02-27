@@ -26,7 +26,7 @@ Resizimg
 
 -   Clone este repositório `git clone https://github.com/sudo-victor/resizimg.git`
 -   Entre na pasta `cd resizimg`
--   Intale as dependências `yarn`
+-   Instale as dependências `yarn`
 
 ### Inicialização
 
